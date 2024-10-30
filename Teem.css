@@ -1,0 +1,238 @@
+body{
+    background-color: antiquewhite;
+}
+.Frame_Cal{
+    background-color: #56a676;
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-width: 4px;
+    border-style: solid;
+    left: 41px;
+    top: 100px;
+}
+.Frame_Display_Value{
+    background-color: gray;
+    width: 260px;
+    height: 100px;
+    left: 14px;
+    top: 20px;
+    position: absolute;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-width: 5px;
+}
+@keyframes blink{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+.Display_Num{
+    position: absolute;
+    font-size: 30px;
+    white-space: nowrap;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+    width: 230px;
+    top: 10%;
+    left: 5%;
+    
+    
+}
+.play{
+    animation: blink 1s infinite;
+}
+
+.Display_Value{
+    position: absolute;
+    font-size: 30px;
+    top: 68%;
+    right: 8%;
+}
+.Frame_Num_Button{
+    width: 268px;
+    height: 430px;
+    background-color:#78aa8c;
+    position: absolute;
+    left: 16px;
+    top: 150px;
+    border-radius: 20px;
+
+}
+.Num_Button{
+    position: absolute;
+    margin: 10px;
+}
+.Button_re{
+    position: absolute;
+    left: 5px;
+    width: 114px;
+    top: 5px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgb(215, 58, 58);
+    font-size: 40px;
+}
+.Button_de{
+    position: absolute;
+    left: 126.5px;
+    top: 5px;
+    width: 114px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_7{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 70px;
+    left: 5px;
+    border-radius: 15px;
+    font-size: 40px;
+    
+}
+.Button_8{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 70px;
+    left: 65.75px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_9{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 70px;
+    left: 126.5px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_di{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 70px;
+    left: 187.25px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_4{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 155px;
+    left: 5px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_5{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 155px;
+    left: 65.75px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_6{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 155px;
+    left: 126.5px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_sq{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 155px;
+    left: 187.25px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_1{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 240px;
+    left: 5px;
+    border-radius: 15px;
+    font-size: 40px;
+
+}
+.Button_2{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 240px;
+    left: 65.75px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_3{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 240px;
+    left: 126.5px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_nega{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 240px;
+    left: 187.25px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_0{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 325px;
+    left: 5px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_dot{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 325px;
+    left: 65.75px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_sum{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 325px;
+    left: 126.5px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.Button_plus{
+    position:absolute;
+    width: 55.75px;
+    height: 80px;
+    top: 325px;
+    left: 187.25px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+

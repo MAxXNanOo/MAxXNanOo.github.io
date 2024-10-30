@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+
+    <link rel="stylesheet" href="Teem.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="Frame_Cal">
+        <div class="Frame_Display_Value">
+            <div class="Display_Value">
+                <span id="Value">0</span>
+            </div>
+            <div class="Display_Num">
+                <span id="tmp_Num"></span><span class="play">_</span>
+            </div>
+            
+        </div>
+
+        <div class="Frame_Num_Button">
+            <div class="Num_Button">
+
+                <input class="Button_de" type="button" value="Deleate" onclick="setfunction('d')">
+                <input class="Button_re" type="button" value="R" onclick="setfunction('r')">
+                
+                <input class="Button_9" type="button" value="9" onclick="calfunctionNum('9')">
+                <input class="Button_8" type="button" value="8" onclick="calfunctionNum('8')">
+                <input class="Button_7" type="button" value="7" onclick="calfunctionNum('7')">
+                <input class="Button_6" type="button" value="6" onclick="calfunctionNum('6')">
+                <input class="Button_5" type="button" value="5" onclick="calfunctionNum('5')">
+                <input class="Button_4" type="button" value="4" onclick="calfunctionNum('4')">
+                <input class="Button_3" type="button" value="3" onclick="calfunctionNum('3')">
+                <input class="Button_2" type="button" value="2" onclick="calfunctionNum('2')">
+                <input class="Button_1" type="button" value="1" onclick="calfunctionNum('1')">
+                <input class="Button_0" type="button" value="0" onclick="calfunctionNum('0')">
+
+                <input class="Button_plus" type="button" value="+" onclick="calfunction('+')">
+                <input class="Button_nega" type="button" value="-" onclick="calfunction('-')">
+                <input class="Button_sq" type="button" value="*" onclick="calfunction('*')">
+                <input class="Button_di" type="button" value="÷" onclick="calfunction('÷')">
+
+                <input class="Button_sum" type="button" value="=" onclick="sumfunction('=')">
+                <input class="Button_dot" type="button" value="." onclick="calfunctionNum('.')">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
